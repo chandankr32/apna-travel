@@ -1,20 +1,27 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🚕 Apna Tour & Travel - Ranchi
 
-# Run and deploy your AI Studio app
+A premium, high-conversion landing page for taxi and travel services in Ranchi, Jharkhand.
 
-This contains everything you need to run your app locally.
+## 🚀 How to Deploy to GitHub Pages (Fixing the Error)
 
-View your app in AI Studio: https://ai.studio/apps/drive/1tjXQUuXz2aULtXunu_xKv4yB3mGne2xS
+If you saw the error `No such file or directory @ ... /docs`, follow these steps:
 
-## Run Locally
+1. **Upload Files**: Ensure all files (index.html, index.tsx, App.tsx, etc.) are in the **root** folder of your repository (not inside a `src` or `docs` folder).
+2. **Go to Settings**: In your GitHub repository, click on the **Settings** tab at the top.
+3. **Pages Section**: Click on **Pages** in the left-hand sidebar.
+4. **Build and Deployment**:
+   - **Source**: Deploy from a branch.
+   - **Branch**: Select `main` (or your active branch).
+   - **Folder**: Change this from `/docs` to **`/(root)`**. 👈 *This fixes your specific error.*
+5. **Save**: Click Save.
+6. **Wait**: Your website will be live at `https://your-username.github.io/your-repo-name/` in about 1-2 minutes.
 
-**Prerequisites:**  Node.js
+## ✨ Features
 
+- **Premium Fleet**: Showcasing Maruti Suzuki Ertiga and Toyota Innova Crysta with cinematic transitions.
+- **WhatsApp Integration**: All booking forms redirect directly to your WhatsApp with pre-filled trip details.
+- **Modern UI**: Built with Tailwind CSS, featuring a glassmorphism navbar and smooth animations.
+- **Mobile Optimized**: Fully responsive design for booking on the go.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 📞 Support
+Update the phone number in `constants.tsx` to your own to receive bookings!
